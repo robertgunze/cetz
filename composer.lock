@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8c8eee0878b0852c6d5651b334b36d7f",
-    "content-hash": "601fb31c8d0d4504a213a0c837654da4",
+    "hash": "1563a9f604fa64960e088ec5ea043cb2",
+    "content-hash": "d799ddf33329683b67b89e288f2ce0f6",
     "packages": [
         {
             "name": "aura/installer-default",
@@ -344,6 +344,305 @@
             "time": "2016-04-28 03:01:34"
         },
         {
+            "name": "friendsofcake/bootstrap-ui",
+            "version": "v0.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfCake/bootstrap-ui.git",
+                "reference": "d1483230d1bb46f6ff114ae987ddefd285f09dc7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfCake/bootstrap-ui/zipball/d1483230d1bb46f6ff114ae987ddefd285f09dc7",
+                "reference": "d1483230d1bb46f6ff114ae987ddefd285f09dc7",
+                "shasum": ""
+            },
+            "require": {
+                "cakephp/cakephp": "~3.0"
+            },
+            "require-dev": {
+                "cakephp/cakephp-codesniffer": "dev-master",
+                "phpunit/phpunit": "4.1.*"
+            },
+            "type": "cakephp-plugin",
+            "autoload": {
+                "psr-4": {
+                    "BootstrapUI\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jad Bitar",
+                    "homepage": "http://jadb.io",
+                    "role": "Author"
+                },
+                {
+                    "name": "Others",
+                    "homepage": "https://github.com/friendsofcake/bootstrap-ui/graphs/contributors"
+                }
+            ],
+            "description": "Twitter Bootstrap 3 support for CakePHP 3",
+            "homepage": "http://github.com/friendsofcake/bootstrap-ui",
+            "keywords": [
+                "bootstrap",
+                "cakephp",
+                "twitter"
+            ],
+            "time": "2016-04-06 12:22:58"
+        },
+        {
+            "name": "friendsofcake/crud",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfCake/crud.git",
+                "reference": "3d5f132388a50291a5479bee3cdce8bf7a6489b0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfCake/crud/zipball/3d5f132388a50291a5479bee3cdce8bf7a6489b0",
+                "reference": "3d5f132388a50291a5479bee3cdce8bf7a6489b0",
+                "shasum": ""
+            },
+            "require": {
+                "cakephp/cakephp": "^3.2.2"
+            },
+            "require-dev": {
+                "friendsofcake/cakephp-test-utilities": "dev-master",
+                "friendsofcake/search": "dev-master",
+                "phpunit/phpunit": "*"
+            },
+            "suggest": {
+                "friendsofcake/crud-view": "Automated admin backend based on your Crud configuration.",
+                "friendsofcake/search": "Provides search capabilities for the Crud plugin."
+            },
+            "type": "cakephp-plugin",
+            "autoload": {
+                "psr-4": {
+                    "Crud\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christian Winther",
+                    "homepage": "http://cakephp.nu/",
+                    "role": "Author"
+                },
+                {
+                    "name": "José Lorenzo Rodríguez",
+                    "homepage": "https://github.com/lorenzo",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "Andy Dawson",
+                    "homepage": "https://github.com/ad7six",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "ADmad",
+                    "homepage": "https://github.com/admad",
+                    "role": "Contributor"
+                }
+            ],
+            "description": "CakePHP Application development on steroids - rapid prototyping / scaffolding & production ready code - XML / JSON APIs and more",
+            "homepage": "https://github.com/FriendsOfCake/crud",
+            "keywords": [
+                "bake",
+                "cake",
+                "cakephp",
+                "create",
+                "crud",
+                "delete",
+                "retrieve",
+                "scaffold",
+                "scaffolding",
+                "update"
+            ],
+            "time": "2016-05-18 13:21:42"
+        },
+        {
+            "name": "friendsofcake/crud-view",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfCake/crud-view.git",
+                "reference": "1999f1534c7524f0f0137574185c763ae123786d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfCake/crud-view/zipball/1999f1534c7524f0f0137574185c763ae123786d",
+                "reference": "1999f1534c7524f0f0137574185c763ae123786d",
+                "shasum": ""
+            },
+            "require": {
+                "cakephp/cakephp": "~3.0",
+                "friendsofcake/bootstrap-ui": "~0.3",
+                "friendsofcake/crud": "*"
+            },
+            "require-dev": {
+                "friendsofcake/cakephp-test-utilities": "dev-master"
+            },
+            "type": "cakephp-plugin",
+            "autoload": {
+                "psr-4": {
+                    "CrudView\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christian Winther",
+                    "homepage": "http://cakephp.nu/",
+                    "role": "Author"
+                },
+                {
+                    "name": "Jose Diaz-Gonzalez",
+                    "homepage": "http://josediazgonzalez.com/",
+                    "role": "Author"
+                }
+            ],
+            "description": "View layer for CRUD",
+            "homepage": "https://github.com/FriendsOfCake/crud-view",
+            "keywords": [
+                "bake",
+                "cake",
+                "cakephp",
+                "create",
+                "crud",
+                "delete",
+                "retrieve",
+                "scaffold",
+                "scaffolding",
+                "update"
+            ],
+            "time": "2016-05-24 08:18:17"
+        },
+        {
+            "name": "league/event",
+            "version": "2.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/event.git",
+                "reference": "e4bfc88dbcb60c8d8a2939a71f9813e141bbe4cd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/event/zipball/e4bfc88dbcb60c8d8a2939a71f9813e141bbe4cd",
+                "reference": "e4bfc88dbcb60c8d8a2939a71f9813e141bbe4cd",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "henrikbjorn/phpspec-code-coverage": "~1.0.1",
+                "phpspec/phpspec": "~2.0.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "League\\Event\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Frank de Jonge",
+                    "email": "info@frenky.net"
+                }
+            ],
+            "description": "Event package",
+            "keywords": [
+                "emitter",
+                "event",
+                "listener"
+            ],
+            "time": "2015-05-21 12:24:47"
+        },
+        {
+            "name": "league/oauth2-server",
+            "version": "4.1.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/oauth2-server.git",
+                "reference": "c5db707e694963f0ac86f1c3d7eb3b25c205ed17"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/oauth2-server/zipball/c5db707e694963f0ac86f1c3d7eb3b25c205ed17",
+                "reference": "c5db707e694963f0ac86f1c3d7eb3b25c205ed17",
+                "shasum": ""
+            },
+            "require": {
+                "league/event": "~2.1",
+                "php": ">=5.4.0",
+                "symfony/http-foundation": "~2.4|~3.0"
+            },
+            "replace": {
+                "league/oauth2server": "*",
+                "lncd/oauth2": "*"
+            },
+            "require-dev": {
+                "mockery/mockery": "0.9.*",
+                "phpunit/phpunit": "4.3.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "League\\OAuth2\\Server\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alex Bilbie",
+                    "email": "hello@alexbilbie.com",
+                    "homepage": "http://www.alexbilbie.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A lightweight and powerful OAuth 2.0 authorization and resource server library with support for all the core specification grants. This library will allow you to secure your API with OAuth and allow your applications users to approve apps that want to access their data from your API.",
+            "homepage": "http://oauth2.thephpleague.com/",
+            "keywords": [
+                "Authentication",
+                "api",
+                "auth",
+                "authorisation",
+                "authorization",
+                "oauth",
+                "oauth 2",
+                "oauth 2.0",
+                "oauth2",
+                "protect",
+                "resource",
+                "secure",
+                "server"
+            ],
+            "time": "2016-01-04 19:56:12"
+        },
+        {
             "name": "mobiledetect/mobiledetectlib",
             "version": "2.8.22",
             "source": {
@@ -659,6 +958,59 @@
             "time": "2016-04-12 18:09:53"
         },
         {
+            "name": "symfony/http-foundation",
+            "version": "v3.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/http-foundation.git",
+                "reference": "18b24bc32d2495ae79d76e777368786a6536fe31"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/18b24bc32d2495ae79d76e777368786a6536fe31",
+                "reference": "18b24bc32d2495ae79d76e777368786a6536fe31",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9",
+                "symfony/polyfill-mbstring": "~1.1"
+            },
+            "require-dev": {
+                "symfony/expression-language": "~2.8|~3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\HttpFoundation\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony HttpFoundation Component",
+            "homepage": "https://symfony.com",
+            "time": "2016-04-12 18:09:53"
+        },
+        {
             "name": "symfony/polyfill-mbstring",
             "version": "v1.2.0",
             "source": {
@@ -765,6 +1117,55 @@
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
             "time": "2016-03-04 07:55:57"
+        },
+        {
+            "name": "uafrica/oauth-server",
+            "version": "v0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/uafrica/oauth-server.git",
+                "reference": "74376320f4b2c265582cf11686d01664a0843f9e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/uafrica/oauth-server/zipball/74376320f4b2c265582cf11686d01664a0843f9e",
+                "reference": "74376320f4b2c265582cf11686d01664a0843f9e",
+                "shasum": ""
+            },
+            "require": {
+                "cakephp/cakephp": "~3.0",
+                "cakephp/migrations": "~1.0",
+                "league/oauth2-server": "~4.1",
+                "php": ">= 5.5"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.5"
+            },
+            "type": "cakephp-plugin",
+            "autoload": {
+                "psr-4": {
+                    "OAuthServer\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Walther Lalk",
+                    "email": "walther@uafrica.com"
+                }
+            ],
+            "description": "OAuth Server for CakePHP 3 using the PHP League's OAuth2 Server",
+            "keywords": [
+                "cakephp",
+                "oauth",
+                "oauth server",
+                "oauth2",
+                "oauth2 server"
+            ],
+            "time": "2016-02-10 13:43:15"
         }
     ],
     "packages-dev": [
@@ -1230,6 +1631,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "friendsofcake/crud": 20,
+        "friendsofcake/crud-view": 20,
         "psy/psysh": 0
     },
     "prefer-stable": true,
