@@ -43,16 +43,16 @@ class AppController extends Controller
 
         $this->loadComponent('RequestHandler');
         $this->loadComponent('Flash');
-        $this->loadComponent('Auth',[
-            'authenticate'=>[
-                 'Digest'=>[
-                      'fields'=>['username'=>'username','password'=>'digest_hash'],
-                      'userModel'=>'Users'
-                     ]
-                ],
-            'storage'=>'Memory',
-            'unauthorizedRedirect'=>false
-            ]);
+        // $this->loadComponent('Auth',[
+        //     'authenticate'=>[
+        //          'Digest'=>[
+        //               'fields'=>['username'=>'username','password'=>'digest_hash'],
+        //               'userModel'=>'Users'
+        //              ]
+        //         ],
+        //     'storage'=>'Memory',
+        //     'unauthorizedRedirect'=>false
+        //     ]);
     }
 
     /**
