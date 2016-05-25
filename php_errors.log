@@ -1,0 +1,186 @@
+[25-May-2016 14:13:14 UTC] PHP Fatal error:  Call to undefined method Cake\Routing\RouteBuilder::resource() in /home/ubuntu/workspace/cetz/config/routes.php on line 47
+[25-May-2016 14:13:14 UTC] PHP Stack trace:
+[25-May-2016 14:13:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cetz/webroot/index.php:0
+[25-May-2016 14:13:14 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/cetz/webroot/index.php:37
+[25-May-2016 14:13:14 UTC] PHP   3. Cake\Routing\Dispatcher->dispatchEvent() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:62
+[25-May-2016 14:13:14 UTC] PHP   4. Cake\Event\EventManager->dispatch() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php:78
+[25-May-2016 14:13:14 UTC] PHP   5. Cake\Event\EventManager->_callListener() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Event/EventManager.php:356
+[25-May-2016 14:13:14 UTC] PHP   6. Cake\Routing\DispatcherFilter->handle() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Event/EventManager.php:390
+[25-May-2016 14:13:14 UTC] PHP   7. Cake\Routing\Filter\RoutingFilter->beforeDispatch() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php:145
+[25-May-2016 14:13:14 UTC] PHP   8. Cake\Routing\Router::parse() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Routing/Filter/RoutingFilter.php:55
+[25-May-2016 14:13:14 UTC] PHP   9. Cake\Routing\Router::_loadRoutes() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Routing/Router.php:333
+[25-May-2016 14:13:14 UTC] PHP  10. include() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Routing/Router.php:969
+[25-May-2016 14:13:14 UTC] PHP  11. Cake\Routing\Router::prefix() /home/ubuntu/workspace/cetz/config/routes.php:48
+[25-May-2016 14:13:14 UTC] PHP  12. Cake\Routing\Router::scope() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Routing/Router.php:911
+[25-May-2016 14:13:14 UTC] PHP  13. Cake\Routing\RouteBuilder->scope() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Routing/Router.php:879
+[25-May-2016 14:13:14 UTC] PHP  14. Cake\Routing\Router::{closure:/home/ubuntu/workspace/cetz/config/routes.php:45-48}() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Routing/RouteBuilder.php:655
+[25-May-2016 19:08:03 UTC] PHP Fatal error:  Class 'App\Controller\Api\AppController' not found in /home/ubuntu/workspace/cetz/src/Controller/Api/V1/ClientsController.php on line 13
+[25-May-2016 19:08:03 UTC] PHP Stack trace:
+[25-May-2016 19:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cetz/webroot/index.php:0
+[25-May-2016 19:08:03 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/cetz/webroot/index.php:37
+[25-May-2016 19:08:03 UTC] PHP   3. Cake\Routing\Dispatcher->dispatchEvent() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:62
+[25-May-2016 19:08:03 UTC] PHP   4. Cake\Event\EventManager->dispatch() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php:78
+[25-May-2016 19:08:03 UTC] PHP   5. Cake\Event\EventManager->_callListener() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Event/EventManager.php:356
+[25-May-2016 19:08:03 UTC] PHP   6. Cake\Routing\DispatcherFilter->handle() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Event/EventManager.php:390
+[25-May-2016 19:08:03 UTC] PHP   7. Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php:145
+[25-May-2016 19:08:03 UTC] PHP   8. Cake\Routing\Filter\ControllerFactoryFilter->_getController() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:51
+[25-May-2016 19:08:03 UTC] PHP   9. Cake\Core\App::className() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:91
+[25-May-2016 19:08:03 UTC] PHP  10. Cake\Core\App::_classExistsInBase() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Core/App.php:64
+[25-May-2016 19:08:03 UTC] PHP  11. class_exists() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Core/App.php:151
+[25-May-2016 19:08:03 UTC] PHP  12. spl_autoload_call() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Core/App.php:151
+[25-May-2016 19:08:03 UTC] PHP  13. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Core/App.php:151
+[25-May-2016 19:08:03 UTC] PHP  14. Composer\Autoload\includeFile() /home/ubuntu/workspace/cetz/vendor/composer/ClassLoader.php:301
+[25-May-2016 19:08:03 UTC] PHP  15. include() /home/ubuntu/workspace/cetz/vendor/composer/ClassLoader.php:412
+[25-May-2016 19:08:39 UTC] PHP Fatal error:  Class 'App\Controller\Api\AppController' not found in /home/ubuntu/workspace/cetz/src/Controller/Api/V1/ClientsController.php on line 13
+[25-May-2016 19:08:39 UTC] PHP Stack trace:
+[25-May-2016 19:08:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cetz/webroot/index.php:0
+[25-May-2016 19:08:39 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/cetz/webroot/index.php:37
+[25-May-2016 19:08:39 UTC] PHP   3. Cake\Routing\Dispatcher->dispatchEvent() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:62
+[25-May-2016 19:08:39 UTC] PHP   4. Cake\Event\EventManager->dispatch() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php:78
+[25-May-2016 19:08:39 UTC] PHP   5. Cake\Event\EventManager->_callListener() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Event/EventManager.php:356
+[25-May-2016 19:08:39 UTC] PHP   6. Cake\Routing\DispatcherFilter->handle() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Event/EventManager.php:390
+[25-May-2016 19:08:39 UTC] PHP   7. Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php:145
+[25-May-2016 19:08:39 UTC] PHP   8. Cake\Routing\Filter\ControllerFactoryFilter->_getController() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:51
+[25-May-2016 19:08:39 UTC] PHP   9. Cake\Core\App::className() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:91
+[25-May-2016 19:08:39 UTC] PHP  10. Cake\Core\App::_classExistsInBase() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Core/App.php:64
+[25-May-2016 19:08:39 UTC] PHP  11. class_exists() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Core/App.php:151
+[25-May-2016 19:08:39 UTC] PHP  12. spl_autoload_call() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Core/App.php:151
+[25-May-2016 19:08:39 UTC] PHP  13. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Core/App.php:151
+[25-May-2016 19:08:39 UTC] PHP  14. Composer\Autoload\includeFile() /home/ubuntu/workspace/cetz/vendor/composer/ClassLoader.php:301
+[25-May-2016 19:08:39 UTC] PHP  15. include() /home/ubuntu/workspace/cetz/vendor/composer/ClassLoader.php:412
+[25-May-2016 19:08:52 UTC] PHP Fatal error:  Class 'App\Controller\Api\AppController' not found in /home/ubuntu/workspace/cetz/src/Controller/Api/V1/ClientsController.php on line 13
+[25-May-2016 19:08:52 UTC] PHP Stack trace:
+[25-May-2016 19:08:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cetz/webroot/index.php:0
+[25-May-2016 19:08:52 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/cetz/webroot/index.php:37
+[25-May-2016 19:08:52 UTC] PHP   3. Cake\Routing\Dispatcher->dispatchEvent() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:62
+[25-May-2016 19:08:52 UTC] PHP   4. Cake\Event\EventManager->dispatch() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php:78
+[25-May-2016 19:08:52 UTC] PHP   5. Cake\Event\EventManager->_callListener() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Event/EventManager.php:356
+[25-May-2016 19:08:52 UTC] PHP   6. Cake\Routing\DispatcherFilter->handle() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Event/EventManager.php:390
+[25-May-2016 19:08:52 UTC] PHP   7. Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php:145
+[25-May-2016 19:08:52 UTC] PHP   8. Cake\Routing\Filter\ControllerFactoryFilter->_getController() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:51
+[25-May-2016 19:08:52 UTC] PHP   9. Cake\Core\App::className() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:91
+[25-May-2016 19:08:52 UTC] PHP  10. Cake\Core\App::_classExistsInBase() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Core/App.php:64
+[25-May-2016 19:08:52 UTC] PHP  11. class_exists() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Core/App.php:151
+[25-May-2016 19:08:52 UTC] PHP  12. spl_autoload_call() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Core/App.php:151
+[25-May-2016 19:08:52 UTC] PHP  13. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Core/App.php:151
+[25-May-2016 19:08:52 UTC] PHP  14. Composer\Autoload\includeFile() /home/ubuntu/workspace/cetz/vendor/composer/ClassLoader.php:301
+[25-May-2016 19:08:52 UTC] PHP  15. include() /home/ubuntu/workspace/cetz/vendor/composer/ClassLoader.php:412
+[25-May-2016 19:09:47 UTC] PHP Fatal error:  Class 'App\Controller\Api\AppController' not found in /home/ubuntu/workspace/cetz/src/Controller/Api/V1/ClientsController.php on line 13
+[25-May-2016 19:09:47 UTC] PHP Stack trace:
+[25-May-2016 19:09:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cetz/webroot/index.php:0
+[25-May-2016 19:09:47 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/cetz/webroot/index.php:37
+[25-May-2016 19:09:47 UTC] PHP   3. Cake\Routing\Dispatcher->dispatchEvent() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:62
+[25-May-2016 19:09:47 UTC] PHP   4. Cake\Event\EventManager->dispatch() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php:78
+[25-May-2016 19:09:47 UTC] PHP   5. Cake\Event\EventManager->_callListener() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Event/EventManager.php:356
+[25-May-2016 19:09:47 UTC] PHP   6. Cake\Routing\DispatcherFilter->handle() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Event/EventManager.php:390
+[25-May-2016 19:09:47 UTC] PHP   7. Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php:145
+[25-May-2016 19:09:47 UTC] PHP   8. Cake\Routing\Filter\ControllerFactoryFilter->_getController() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:51
+[25-May-2016 19:09:47 UTC] PHP   9. Cake\Core\App::className() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:91
+[25-May-2016 19:09:47 UTC] PHP  10. Cake\Core\App::_classExistsInBase() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Core/App.php:64
+[25-May-2016 19:09:47 UTC] PHP  11. class_exists() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Core/App.php:151
+[25-May-2016 19:09:47 UTC] PHP  12. spl_autoload_call() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Core/App.php:151
+[25-May-2016 19:09:47 UTC] PHP  13. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Core/App.php:151
+[25-May-2016 19:09:47 UTC] PHP  14. Composer\Autoload\includeFile() /home/ubuntu/workspace/cetz/vendor/composer/ClassLoader.php:301
+[25-May-2016 19:09:47 UTC] PHP  15. include() /home/ubuntu/workspace/cetz/vendor/composer/ClassLoader.php:412
+[25-May-2016 19:09:51 UTC] PHP Fatal error:  Class 'App\Controller\Api\AppController' not found in /home/ubuntu/workspace/cetz/src/Controller/Api/V1/ClientsController.php on line 13
+[25-May-2016 19:09:51 UTC] PHP Stack trace:
+[25-May-2016 19:09:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cetz/webroot/index.php:0
+[25-May-2016 19:09:51 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/cetz/webroot/index.php:37
+[25-May-2016 19:09:51 UTC] PHP   3. Cake\Routing\Dispatcher->dispatchEvent() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:62
+[25-May-2016 19:09:51 UTC] PHP   4. Cake\Event\EventManager->dispatch() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php:78
+[25-May-2016 19:09:51 UTC] PHP   5. Cake\Event\EventManager->_callListener() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Event/EventManager.php:356
+[25-May-2016 19:09:51 UTC] PHP   6. Cake\Routing\DispatcherFilter->handle() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Event/EventManager.php:390
+[25-May-2016 19:09:51 UTC] PHP   7. Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php:145
+[25-May-2016 19:09:51 UTC] PHP   8. Cake\Routing\Filter\ControllerFactoryFilter->_getController() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:51
+[25-May-2016 19:09:51 UTC] PHP   9. Cake\Core\App::className() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:91
+[25-May-2016 19:09:51 UTC] PHP  10. Cake\Core\App::_classExistsInBase() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Core/App.php:64
+[25-May-2016 19:09:51 UTC] PHP  11. class_exists() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Core/App.php:151
+[25-May-2016 19:09:51 UTC] PHP  12. spl_autoload_call() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Core/App.php:151
+[25-May-2016 19:09:51 UTC] PHP  13. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Core/App.php:151
+[25-May-2016 19:09:51 UTC] PHP  14. Composer\Autoload\includeFile() /home/ubuntu/workspace/cetz/vendor/composer/ClassLoader.php:301
+[25-May-2016 19:09:51 UTC] PHP  15. include() /home/ubuntu/workspace/cetz/vendor/composer/ClassLoader.php:412
+[25-May-2016 19:23:20 UTC] PHP Fatal error:  Class 'App\Controller\Api\AppController' not found in /home/ubuntu/workspace/cetz/src/Controller/Api/V1/ClientsController.php on line 13
+[25-May-2016 19:23:20 UTC] PHP Stack trace:
+[25-May-2016 19:23:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cetz/webroot/index.php:0
+[25-May-2016 19:23:20 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/cetz/webroot/index.php:37
+[25-May-2016 19:23:20 UTC] PHP   3. Cake\Routing\Dispatcher->dispatchEvent() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:62
+[25-May-2016 19:23:20 UTC] PHP   4. Cake\Event\EventManager->dispatch() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php:78
+[25-May-2016 19:23:20 UTC] PHP   5. Cake\Event\EventManager->_callListener() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Event/EventManager.php:356
+[25-May-2016 19:23:20 UTC] PHP   6. Cake\Routing\DispatcherFilter->handle() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Event/EventManager.php:390
+[25-May-2016 19:23:20 UTC] PHP   7. Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php:145
+[25-May-2016 19:23:20 UTC] PHP   8. Cake\Routing\Filter\ControllerFactoryFilter->_getController() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:51
+[25-May-2016 19:23:20 UTC] PHP   9. Cake\Core\App::className() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:91
+[25-May-2016 19:23:20 UTC] PHP  10. Cake\Core\App::_classExistsInBase() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Core/App.php:64
+[25-May-2016 19:23:20 UTC] PHP  11. class_exists() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Core/App.php:151
+[25-May-2016 19:23:20 UTC] PHP  12. spl_autoload_call() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Core/App.php:151
+[25-May-2016 19:23:20 UTC] PHP  13. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Core/App.php:151
+[25-May-2016 19:23:20 UTC] PHP  14. Composer\Autoload\includeFile() /home/ubuntu/workspace/cetz/vendor/composer/ClassLoader.php:301
+[25-May-2016 19:23:20 UTC] PHP  15. include() /home/ubuntu/workspace/cetz/vendor/composer/ClassLoader.php:412
+[25-May-2016 19:23:44 UTC] PHP Fatal error:  Class 'App\Controller\Api\AppController' not found in /home/ubuntu/workspace/cetz/src/Controller/Api/V1/ClientsController.php on line 13
+[25-May-2016 19:23:44 UTC] PHP Stack trace:
+[25-May-2016 19:23:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/cetz/webroot/index.php:0
+[25-May-2016 19:23:44 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/cetz/webroot/index.php:37
+[25-May-2016 19:23:44 UTC] PHP   3. Cake\Routing\Dispatcher->dispatchEvent() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:62
+[25-May-2016 19:23:44 UTC] PHP   4. Cake\Event\EventManager->dispatch() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php:78
+[25-May-2016 19:23:44 UTC] PHP   5. Cake\Event\EventManager->_callListener() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Event/EventManager.php:356
+[25-May-2016 19:23:44 UTC] PHP   6. Cake\Routing\DispatcherFilter->handle() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Event/EventManager.php:390
+[25-May-2016 19:23:44 UTC] PHP   7. Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php:145
+[25-May-2016 19:23:44 UTC] PHP   8. Cake\Routing\Filter\ControllerFactoryFilter->_getController() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:51
+[25-May-2016 19:23:44 UTC] PHP   9. Cake\Core\App::className() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:91
+[25-May-2016 19:23:44 UTC] PHP  10. Cake\Core\App::_classExistsInBase() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Core/App.php:64
+[25-May-2016 19:23:44 UTC] PHP  11. class_exists() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Core/App.php:151
+[25-May-2016 19:23:44 UTC] PHP  12. spl_autoload_call() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Core/App.php:151
+[25-May-2016 19:23:44 UTC] PHP  13. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Core/App.php:151
+[25-May-2016 19:23:44 UTC] PHP  14. Composer\Autoload\includeFile() /home/ubuntu/workspace/cetz/vendor/composer/ClassLoader.php:301
+[25-May-2016 19:23:44 UTC] PHP  15. include() /home/ubuntu/workspace/cetz/vendor/composer/ClassLoader.php:412
+[25-May-2016 19:24:01 UTC] PHP Fatal error:  Class 'App\Controller\Api\AppController' not found in /home/ubuntu/workspace/cetz/src/Controller/Api/V1/ClientsController.php on line 13
+[25-May-2016 19:24:01 UTC] PHP Stack trace:
+[25-May-2016 19:24:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cetz/webroot/index.php:0
+[25-May-2016 19:24:01 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/cetz/webroot/index.php:37
+[25-May-2016 19:24:01 UTC] PHP   3. Cake\Routing\Dispatcher->dispatchEvent() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:62
+[25-May-2016 19:24:01 UTC] PHP   4. Cake\Event\EventManager->dispatch() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php:78
+[25-May-2016 19:24:01 UTC] PHP   5. Cake\Event\EventManager->_callListener() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Event/EventManager.php:356
+[25-May-2016 19:24:01 UTC] PHP   6. Cake\Routing\DispatcherFilter->handle() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Event/EventManager.php:390
+[25-May-2016 19:24:01 UTC] PHP   7. Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php:145
+[25-May-2016 19:24:01 UTC] PHP   8. Cake\Routing\Filter\ControllerFactoryFilter->_getController() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:51
+[25-May-2016 19:24:01 UTC] PHP   9. Cake\Core\App::className() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:91
+[25-May-2016 19:24:01 UTC] PHP  10. Cake\Core\App::_classExistsInBase() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Core/App.php:64
+[25-May-2016 19:24:01 UTC] PHP  11. class_exists() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Core/App.php:151
+[25-May-2016 19:24:01 UTC] PHP  12. spl_autoload_call() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Core/App.php:151
+[25-May-2016 19:24:01 UTC] PHP  13. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Core/App.php:151
+[25-May-2016 19:24:01 UTC] PHP  14. Composer\Autoload\includeFile() /home/ubuntu/workspace/cetz/vendor/composer/ClassLoader.php:301
+[25-May-2016 19:24:01 UTC] PHP  15. include() /home/ubuntu/workspace/cetz/vendor/composer/ClassLoader.php:412
+[25-May-2016 19:28:06 UTC] PHP Fatal error:  Class 'App\Controller\Api\AppController' not found in /home/ubuntu/workspace/cetz/src/Controller/Api/V1/ClientsController.php on line 13
+[25-May-2016 19:28:06 UTC] PHP Stack trace:
+[25-May-2016 19:28:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/cetz/webroot/index.php:0
+[25-May-2016 19:28:06 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/cetz/webroot/index.php:37
+[25-May-2016 19:28:06 UTC] PHP   3. Cake\Routing\Dispatcher->dispatchEvent() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:62
+[25-May-2016 19:28:06 UTC] PHP   4. Cake\Event\EventManager->dispatch() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php:78
+[25-May-2016 19:28:06 UTC] PHP   5. Cake\Event\EventManager->_callListener() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Event/EventManager.php:356
+[25-May-2016 19:28:06 UTC] PHP   6. Cake\Routing\DispatcherFilter->handle() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Event/EventManager.php:390
+[25-May-2016 19:28:06 UTC] PHP   7. Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php:145
+[25-May-2016 19:28:06 UTC] PHP   8. Cake\Routing\Filter\ControllerFactoryFilter->_getController() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:51
+[25-May-2016 19:28:06 UTC] PHP   9. Cake\Core\App::className() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:91
+[25-May-2016 19:28:06 UTC] PHP  10. Cake\Core\App::_classExistsInBase() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Core/App.php:64
+[25-May-2016 19:28:06 UTC] PHP  11. class_exists() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Core/App.php:151
+[25-May-2016 19:28:06 UTC] PHP  12. spl_autoload_call() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Core/App.php:151
+[25-May-2016 19:28:06 UTC] PHP  13. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Core/App.php:151
+[25-May-2016 19:28:06 UTC] PHP  14. Composer\Autoload\includeFile() /home/ubuntu/workspace/cetz/vendor/composer/ClassLoader.php:301
+[25-May-2016 19:28:06 UTC] PHP  15. include() /home/ubuntu/workspace/cetz/vendor/composer/ClassLoader.php:412
+[25-May-2016 19:28:53 UTC] PHP Fatal error:  Class 'App\Controller\Api\AppController' not found in /home/ubuntu/workspace/cetz/src/Controller/Api/V1/ClientsController.php on line 13
+[25-May-2016 19:28:53 UTC] PHP Stack trace:
+[25-May-2016 19:28:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cetz/webroot/index.php:0
+[25-May-2016 19:28:53 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/cetz/webroot/index.php:37
+[25-May-2016 19:28:53 UTC] PHP   3. Cake\Routing\Dispatcher->dispatchEvent() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:62
+[25-May-2016 19:28:53 UTC] PHP   4. Cake\Event\EventManager->dispatch() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php:78
+[25-May-2016 19:28:53 UTC] PHP   5. Cake\Event\EventManager->_callListener() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Event/EventManager.php:356
+[25-May-2016 19:28:53 UTC] PHP   6. Cake\Routing\DispatcherFilter->handle() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Event/EventManager.php:390
+[25-May-2016 19:28:53 UTC] PHP   7. Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php:145
+[25-May-2016 19:28:53 UTC] PHP   8. Cake\Routing\Filter\ControllerFactoryFilter->_getController() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:51
+[25-May-2016 19:28:53 UTC] PHP   9. Cake\Core\App::className() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:91
+[25-May-2016 19:28:53 UTC] PHP  10. Cake\Core\App::_classExistsInBase() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Core/App.php:64
+[25-May-2016 19:28:53 UTC] PHP  11. class_exists() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Core/App.php:151
+[25-May-2016 19:28:53 UTC] PHP  12. spl_autoload_call() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Core/App.php:151
+[25-May-2016 19:28:53 UTC] PHP  13. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/cetz/vendor/cakephp/cakephp/src/Core/App.php:151
+[25-May-2016 19:28:53 UTC] PHP  14. Composer\Autoload\includeFile() /home/ubuntu/workspace/cetz/vendor/composer/ClassLoader.php:301
+[25-May-2016 19:28:53 UTC] PHP  15. include() /home/ubuntu/workspace/cetz/vendor/composer/ClassLoader.php:412
