@@ -221,3 +221,11 @@ Type::build('datetime')
     ->useImmutable();
 
 Plugin::load('OAuthServer', ['routes' => true]);
+
+Plugin::load('CrudView', ['routes' => true]);
+
+Plugin::load('Crud');
+
+Plugin::load('Crud');
+
+Plugin::load('CrudView');

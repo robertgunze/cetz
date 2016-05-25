@@ -26,58 +26,58 @@ class ScopesController extends AppController
             'Clients',
             'Scopes'
         ];
-        $this->loadComponent('Crud.Crud', [
-            'actions' => [
-                'index' => [
-                    'className' => 'Crud.Index',
-                    'scaffold' => [
-                        'tables' => $tables
-                    ]
-                ],
-                'view' => [
-                    'className' => 'Crud.View',
-                    'scaffold' => [
-                        'tables' => $tables
-                    ]
-                ],
-                'edit' => [
-                    'className' => 'Crud.Edit',
-                    'scaffold' => [
-                        'tables' => $tables,
-                        'fields' => [
-                            'id' => [
-                                'label' => 'ID',
-                                'type' => 'text'
-                            ],
-                            'description',
-                        ]
-                    ]
-                ],
-                'add' => [
-                    'className' => 'Crud.Add',
-                    'scaffold' => [
-                        'tables' => $tables,
-                        'fields' => [
-                            'id' => [
-                                'label' => 'ID',
-                                'type' => 'text'
-                            ],
-                            'description',
-                        ]
-                    ]
-                ],
-                'delete' => [
-                    'className' => 'Crud.Delete',
-                    'scaffold' => [
-                        'tables' => $tables
-                    ]
-                ],
-            ],
-            'listeners' => [
-                'CrudView.View',
-                'Crud.RelatedModels',
-                'Crud.Redirect',
-            ],
-        ]);
+        // $this->loadComponent('Crud.Crud', [
+        //     'actions' => [
+        //         'index' => [
+        //             'className' => 'Crud.Index',
+        //             'scaffold' => [
+        //                 'tables' => $tables
+        //             ]
+        //         ],
+        //         'view' => [
+        //             'className' => 'Crud.View',
+        //             'scaffold' => [
+        //                 'tables' => $tables
+        //             ]
+        //         ],
+        //         'edit' => [
+        //             'className' => 'Crud.Edit',
+        //             'scaffold' => [
+        //                 'tables' => $tables,
+        //                 'fields' => [
+        //                     'id' => [
+        //                         'label' => 'ID',
+        //                         'type' => 'text'
+        //                     ],
+        //                     'description',
+        //                 ]
+        //             ]
+        //         ],
+        //         'add' => [
+        //             'className' => 'Crud.Add',
+        //             'scaffold' => [
+        //                 'tables' => $tables,
+        //                 'fields' => [
+        //                     'id' => [
+        //                         'label' => 'ID',
+        //                         'type' => 'text'
+        //                     ],
+        //                     'description',
+        //                 ]
+        //             ]
+        //         ],
+        //         'delete' => [
+        //             'className' => 'Crud.Delete',
+        //             'scaffold' => [
+        //                 'tables' => $tables
+        //             ]
+        //         ],
+        //     ],
+        //     'listeners' => [
+        //         'CrudView.View',
+        //         'Crud.RelatedModels',
+        //         'Crud.Redirect',
+        //     ],
+        // ]);
     }
 }

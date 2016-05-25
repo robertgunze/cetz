@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1563a9f604fa64960e088ec5ea043cb2",
-    "content-hash": "d799ddf33329683b67b89e288f2ce0f6",
+    "hash": "d8719ccdd8f87642548deec68eb493f3",
+    "content-hash": "61bdcde659ee805f8290e60d005c0b0d",
     "packages": [
         {
             "name": "aura/installer-default",
@@ -396,16 +396,16 @@
         },
         {
             "name": "friendsofcake/crud",
-            "version": "dev-master",
+            "version": "4.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfCake/crud.git",
-                "reference": "3d5f132388a50291a5479bee3cdce8bf7a6489b0"
+                "reference": "b2dfb847d4942c7924440f8c107acc82b66406d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfCake/crud/zipball/3d5f132388a50291a5479bee3cdce8bf7a6489b0",
-                "reference": "3d5f132388a50291a5479bee3cdce8bf7a6489b0",
+                "url": "https://api.github.com/repos/FriendsOfCake/crud/zipball/b2dfb847d4942c7924440f8c107acc82b66406d3",
+                "reference": "b2dfb847d4942c7924440f8c107acc82b66406d3",
                 "shasum": ""
             },
             "require": {
@@ -466,7 +466,7 @@
                 "scaffolding",
                 "update"
             ],
-            "time": "2016-05-18 13:21:42"
+            "time": "2016-05-12 16:40:11"
         },
         {
             "name": "friendsofcake/crud-view",
@@ -1631,7 +1631,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "friendsofcake/crud": 20,
         "friendsofcake/crud-view": 20,
         "psy/psysh": 0
     },
